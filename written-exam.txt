@@ -1,0 +1,30 @@
+What is the primary operational difference between git fetch and git pull? 
+answer: get fetch download changes from a a repository while git pull
+
+2. You have uncommitted changes in your working directory and need to temporarily switch to another branch. Which workflow prevents Git from blocking the checkout due the file overwrites?
+
+stash answer: git stash
+
+3. khen executing a git merge-no-ff command, what specific behavior is enforced by Git)
+answer: it forces git to create a merge
+
+4. What happens when you check out a specific commit hash directly (g. Git checkout albicid) Instead of a branch name?
+answer: Detached head state
+
+5. You need to apply bug fix commit from a development branch onto a stable release branch without merging the entire branch history. Which command should you use? 
+answer: ccommit hashs
+
+6. After performing a destructive git reset hard operation, you realize you lost recent commits that were not on any branch. Which utility can retrieve these dangling commits? 
+answer: git ref
+
+7. You want to remove untracked files and directories from your working tree, including ignored files listed ingitignors. Which command flag combination achieve this?
+answer: git clean fax
+
+B. You need to undu a public commit that has already been pushed to a shared remote repository without altering the existing commit history or disrupting collaborators. Which command is appropriate? 
+answer: git revert commit hasho
+
+9. You want to Identify the specific comelt that introduced a regression bug in a codebase with hundreds of historical commits. Which utility autumates this binary search process?
+answer: git-bisect
+
+10.What is the function of the amend flag when used with git commit? 
+answers: git commit amend
